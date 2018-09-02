@@ -33,7 +33,7 @@ namespace Base {
   }
   export class GameView extends GameContainer {}
   /**游戏模版 */
-  export class GamePanel extends Base.GameView {
+  export class GamePanel extends GameView {
     protected score: number; //分数
     protected level: number; //等级
     protected blood: number; //血量

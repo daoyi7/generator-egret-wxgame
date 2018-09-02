@@ -155,7 +155,7 @@ var Base;
             this.addChild(gameName);
         };
         return GamePanel;
-    }(Base.GameView));
+    }(GameView));
     Base.GamePanel = GamePanel;
     __reflect(GamePanel.prototype, "Base.GamePanel");
 })(Base || (Base = {}));
